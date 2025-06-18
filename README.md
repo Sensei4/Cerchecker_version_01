@@ -1,25 +1,31 @@
 # Certificate Checker  
 
-![Screenshot](screenshot.png)  
-
-A simple GUI tool to check SSL/TLS certificate expiration dates in bulk.  
+A GUI application for checking SSL/TLS certificate expiration dates in bulk with multilingual support (English/Russian). 
 
 ## Features  
-- Scan `.cer` files in a selected folder.  
-- Filter certificates expiring within a specified days range.  
-- Clear table view with sorting.  
+    🗂️ Scan folders for .cer certificate files
+    📅 Check expiration dates of certificates
+    🔍 Filter certificates expiring within a specified timeframe
+    🌍 Bilingual interface (English/Russian)
+    📊 Results displayed in sortable table
+    🚦 Status bar with operation progress  
 
 ## Usage  
-1. Run `main.py`.  
-2. Select a folder containing certificates.  
-3. Set the "days before expiry" threshold.  
-4. Click **"ПОИСК"** (Search) to see results.  
+1. Run the application:
+    bash
+    python main.py
+
+2. In the application:
+    Click "Browse" to select a folder containing certificates
+    Set the expiration threshold (in days)
+    Click "SEARCH" to scan certificates
+    Use the "En/Ru" button to toggle between English and Russian interfaces
 
 ## Requirements  
-- Python 3.x  
-- `pyOpenSSL`  
-- `tkinter` (included in Python)  
-- Optional: `Pillow` for custom icons  
+    Python 3.8+
+    pyOpenSSL (for certificate parsing)
+    tkinter (included with Python)
+    python-dateutil (for date handling)
 
 ## License  
 MIT  
