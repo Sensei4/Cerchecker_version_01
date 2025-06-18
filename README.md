@@ -2,7 +2,7 @@
 
 A GUI application for checking SSL/TLS certificate expiration dates in bulk with multilingual support (English/Russian). 
 
-## Features  
+# Features  
     🗂️ Scan folders for .cer certificate files
     📅 Check expiration dates of certificates
     🔍 Filter certificates expiring within a specified timeframe
@@ -10,7 +10,7 @@ A GUI application for checking SSL/TLS certificate expiration dates in bulk with
     📊 Results displayed in sortable table
     🚦 Status bar with operation progress  
 
-## Usage  
+# Usage  
 1. Run the application:
     bash
     python main.py
@@ -27,5 +27,5 @@ A GUI application for checking SSL/TLS certificate expiration dates in bulk with
     tkinter (included with Python)
     python-dateutil (for date handling)
 
-## License  
+# License  
 MIT  
